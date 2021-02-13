@@ -1,0 +1,24 @@
+#MongoDB
+spring.data.mongodb.host=mongodb-service
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=residencia
+spring.data.mongodb.authentication-database=admin
+spring.data.mongodb.username=residencia
+spring.data.mongodb.password=password
+server.port=8080
+logging.level.com.bolsadeideas=DEBUG
+#Redis
+spring.redis.host=redis-service
+spring.redis.port=6379
+spring.session.store-type=redis
+#Variables
+mimerkadito.value=config purchase-service github
+com.mx.yoconsumo.commons.packageScan=com.springboot
+#RabiitMQ
+spring.rabbitmq.host=rabbitmq-service
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
+#Configuracion de mongodb transaction
+mongodb.connection=mongodb://mongodb-service/
+mongodb.nameDB=residencia
